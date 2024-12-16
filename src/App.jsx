@@ -4,14 +4,18 @@ function App() {
   return (
     <div className="container">
       <form className="subDiv1" action="/">
-        <label htmlFor="fullName">Full Name</label>
-        <input
-          id="fullName"
-          type="text"
-          placeholder="What should we call you?"
-        />
-        <label htmlFor="email">Email</label>
-        <input id="email" type="email" placeholder="Email" required />
+        <div className="subContainer">
+          <label htmlFor="fullName">Full Name</label>
+          <input
+            id="fullName"
+            type="text"
+            placeholder="What should we call you?"
+          />
+        </div>
+        <div className="subContainer">
+          <label htmlFor="email">Email</label>
+          <input id="email" type="email" placeholder="Email" required />
+        </div>
         <div className="subContainer">
           <label htmlFor="password">Password</label>
           <input

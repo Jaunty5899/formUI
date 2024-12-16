@@ -51,9 +51,9 @@
 .list {
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 5px;
   list-style-type: none;
-  padding: 25px 15px;
+  padding: 20px 15px;
   margin: 0;
   font-size: small;
 }
