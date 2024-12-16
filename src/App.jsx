@@ -34,7 +34,20 @@ function App() {
         </div>
         <button>Update Profile</button>
       </form>
-      <div className="subDiv2"></div>
+      <div className="subDiv2">
+        <div className="progressBar">
+          <span className="progress">100%</span>
+        </div>
+        <span>Profile Completeness</span>
+        <div className="subSubDiv">
+          <ul className="list">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
