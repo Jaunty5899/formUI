@@ -1,9 +1,6 @@
-// import { useState } from 'react'
 import "./App.css";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <div className="container">
       <form className="subDiv1" action="/">
@@ -15,17 +12,26 @@ function App() {
         />
         <label htmlFor="email">Email</label>
         <input id="email" type="email" placeholder="Email" required />
-        <label htmlFor="password">Password</label>
-        <input id="password" type="password" placeholder="XXXXXXXX" required>
-          asd
-        </input>
-        <label htmlFor="confirmPassword">Confirm Password</label>
-        <input
-          id="confirmPassword"
-          type="password"
-          placeholder="XXXXXXXX"
-          required
-        />
+        <div className="subContainer">
+          <label htmlFor="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="XXXXXXXX"
+            required
+          />
+          <span className="eyeCon material-symbols-outlined">visibility</span>
+        </div>
+        <div className="subContainer">
+          <label htmlFor="confirmPassword">Confirm Password</label>
+          <input
+            id="confirmPassword"
+            type="password"
+            placeholder="XXXXXXXX"
+            required
+          />
+          <span className="eyeCon material-symbols-outlined">visibility</span>
+        </div>
         <button>Update Profile</button>
       </form>
       <div className="subDiv2"></div>
