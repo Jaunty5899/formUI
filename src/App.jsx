@@ -41,10 +41,11 @@ function App() {
         <span>Profile Completeness</span>
         <div className="subSubDiv">
           <ul className="list">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Create Account</li>
+            <li>Update Roadmap Progress</li>
+            <li>Setup Public Domain</li>
+            <li>Complete your first project</li>
+            <li>Invite your Friends</li>
           </ul>
         </div>
       </div>
